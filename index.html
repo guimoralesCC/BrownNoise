@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Noise: Focus Aid </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Welcome message container -->
+    <div class="welcome-message" id="welcomeMessage">
+        <span>Welcome to Brown Noise: Focus Aid! Enjoy deep, soothing sounds designed to boost focus and relaxation, perfect for blocking distractions while you work or unwind.</span>
+        <button class="close-btn" id="closeWelcomeBtn">&times;</button>
+    </div>
+
+    <div class="container">
+        <h1>Brown Noise: Focus Aid</h1>
+
+        <!-- Warning message -->
+        <div class="warning-message" id="warningMessage">
+            <span>Warning: High volume leves could impact focus. </span>
+            <span> Use the slider below to manage volume levels. </span>
+
+            <button class="close-btn" id="closeWarningBtn">&times;</button>
+        </div>
+
+        <input type="text" id="timerDisplay" value="00:00" maxlength="5" placeholder="MM:SS">
+        <p class="timeFormatLabel">Minutes:Seconds</p> 
+        <p class="editHint">Click timer to edit</p> <!-- Hint text -->
+        <button id="playPauseBtn">Play</button>
+        <button id="resetBtn">Reset</button>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.5">
+        <!-----Help-->
+        <div class="help-section">
+            <button class="help-btn" id="toggleHelpBtn">Help</button>
+            <div class="help-content" id="helpContent">
+                <p><strong>How to Use:</strong></p>
+                <ul>
+                    <li>Use the Play/Pause button to start or pause the brown noise.</li>
+                    <li>Set the timer in MM:SS format if you want a specific play time. Timer is optional.</li>
+                    <li>To stop the sound and/or reset the timer using the Reset button.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

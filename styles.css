@@ -1,0 +1,164 @@
+/* Center the entire page content */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Futura', Arial, sans-serif;
+    color: black;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Close button styling for the welcome message */
+.welcome-message .close-btn {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Container for the player */
+.container {
+    background-color: #f5deb3;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+/* Styling for all text elements, buttons, and input fields */
+h1, p, button, input {
+    font-family: 'Futura', Arial, sans-serif;
+}
+
+
+/* Countdown display */
+#countdownDisplay {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Style buttons */
+button {
+    background-color: #986d28;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Timer display styled as a digital clock */
+#timerDisplay {
+    font-size: 24px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+}
+
+/* Style the time format label */
+.timeFormatLabel {
+    font-size: 12px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Warning message styling */
+.warning-message {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Close button styling */
+.close-btn {
+    background: none;
+    border: none;
+    color: #d8000c;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Help section styling */
+.help-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.help-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.help-content {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.help-content ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.help-content ul li {
+    margin-bottom: 8px;
+}
+
+/* Hint text for timer editability */
+.editHint {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
