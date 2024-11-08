@@ -1,1 +1,1 @@
-# Main Program 
+# Brown Noise: Focus App
